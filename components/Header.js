@@ -4,6 +4,7 @@ import { useRef } from 'react';
 import { XIcon } from '@heroicons/react/outline';
 import { MicrophoneIcon, SearchIcon } from '@heroicons/react/solid';
 import Avatar from './Avatar';
+import HeaderOptions from './HeaderOptions';
 
 const Header = () => {
     const router = useRouter();
@@ -46,6 +47,8 @@ const Header = () => {
                     className="ml-auto"
                 />
             </div>
+            {/* header options component */}
+            <HeaderOptions />
         </header>
     );
 };

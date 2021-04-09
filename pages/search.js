@@ -10,7 +10,6 @@ const Search = () => {
             </Head>
             {/* Header */}
             <Header />
-            <h1>Search Page</h1>
             {/* Search Results */}
         </div>
     );
